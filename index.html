@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NameParker - Practice smarter before class</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <!-- Top bar -->
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo-circle">NP</div>
+        <div>
+          <h1>NameParker</h1>
+          <p class="subtitle">Practice smarter before class</p>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="profile-text">
+          <p class="profile-name">Professor Chris</p>
+          <p class="profile-role">Course faculty</p>
+        </div>
+        <div class="profile-avatar">PC</div>
+      </div>
+    </header>
+
+    <main class="content-single">
+      <!-- greeting first -->
+      <section class="card personal-card" id="greetCard">
+        <p class="hello" id="helloText">Good afternoon Professor Chris</p>
+        <p class="personal-line">Here is a quick view before class.</p>
+        <ul class="personal-list" id="personalList"></ul>
+      </section>
+
+      <!-- classes -->
+      <section class="card">
+        <div class="section-head">
+          <h2>Your classes</h2>
+          <p class="section-note">Review progress. Pick where to spend time.</p>
+        </div>
+        <div id="classList" class="class-list"></div>
+      </section>
+
+      <!-- AI -->
+      <section class="card ai-card" id="aiSection">
+        <h2>Parker Assist AI is here to help you!</h2>
+        <p class="ai-intro">It found the class where a short practice will raise recall the fastest.</p>
+        <div id="aiRec" class="ai-box"></div>
+        <p class="ai-foot">Parker Assist is learning to be better with your progress to support personalised learning.</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Static HTML demo for Epic 2 and child story 1. Submit this JSFiddle URL in Canvas with a version number.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
